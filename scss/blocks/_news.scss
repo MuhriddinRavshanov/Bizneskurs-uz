@@ -1,0 +1,44 @@
+.news{
+   padding: 50px 0px;
+
+   &__title{
+      font-size: 35px;
+      font-weight: bold;
+      color: #2D3A45;
+   }
+
+   &__link {
+      font-size: 20px;
+      line-height: 28px;
+      text-decoration: none;
+      color: #2D3A45;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      i {
+         margin-left: 10px;
+      }
+   }
+
+   .card-title{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      color: #2D3A45;
+   }
+   .card-text{
+      font-size: 16px;
+      line-height: 20px;
+      color: #8D9BA8;
+   }
+   .card-link {
+      text-decoration: none;
+      color: #2D3A45;
+      font-weight: bold;
+      transition: 0.3s;
+
+      &:hover{
+         color: blue;
+      }
+   }
+}

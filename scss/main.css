@@ -962,7 +962,7 @@
 }
 
 .motivation {
-  padding: 50px 0px;
+  padding: 50px 0px 100px;
 }
 
 .motivation__list {
@@ -1005,6 +1005,61 @@
 .motivation__video {
   -webkit-transform: perspective(600px) rotateY(-13deg);
           transform: perspective(600px) rotateY(-13deg);
+}
+
+.news {
+  padding: 50px 0px;
+}
+
+.news__title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #2D3A45;
+}
+
+.news__link {
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #2D3A45;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news__link i {
+  margin-left: 10px;
+}
+
+.news .card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2D3A45;
+}
+
+.news .card-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #8D9BA8;
+}
+
+.news .card-link {
+  text-decoration: none;
+  color: #2D3A45;
+  font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.news .card-link:hover {
+  color: blue;
 }
 
 html {
