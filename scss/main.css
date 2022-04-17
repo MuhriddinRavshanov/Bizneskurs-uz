@@ -572,11 +572,39 @@
 
 .page__div:last-child {
   top: 59%;
-  left: 27%;
+  left: 25%;
   background: linear-gradient(147.39deg, #9BD5FF 13.97%, #228BDA 92.67%);
   -webkit-box-shadow: 0px 38px 48px rgba(34, 139, 218, 0.236642);
           box-shadow: 0px 38px 48px rgba(34, 139, 218, 0.236642);
   border-radius: 4px;
+}
+
+.page__signup {
+  position: absolute;
+  top: 60%;
+  left: -70%;
+  width: 170px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #8D9BA8;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 38px 48px rgba(116, 131, 143, 0.253879);
+          box-shadow: 0px 38px 48px rgba(116, 131, 143, 0.253879);
+  border-radius: 3px;
+}
+
+.page__sertificate {
+  position: absolute;
+  top: 9%;
+  left: 84%;
+  width: 170px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #8D9BA8;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 38px 48px rgba(116, 131, 143, 0.253879);
+          box-shadow: 0px 38px 48px rgba(116, 131, 143, 0.253879);
+  border-radius: 3px;
 }
 
 .content {
