@@ -609,11 +609,11 @@
 }
 
 .content {
-  padding: 100px 0px;
-  margin: 100px 0px;
+  padding: 200px 0px 300px;
+  margin: 100px 0px 200px;
   background-image: url("../../images/Rectangle Copy 37.png"), url("../../images/Group 15 Copy.png");
   background-repeat: no-repeat,no-repeat;
-  background-position: 0%  0%, 100% 40%;
+  background-position: 0%  0%, 100% 90%;
 }
 
 .content .container {
@@ -626,6 +626,132 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.content .left-content {
+  position: relative;
+}
+
+.content .left-content .content-div {
+  background-color: white;
+  width: 240px;
+  height: 276px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 4px;
+}
+
+.content .left-content .content-div .foiz {
+  width: 73px;
+  height: 36px;
+  background-color: #86BE47;
+  color: white;
+  -webkit-box-shadow: 0px 10px 20px rgba(134, 190, 71, 0.653327);
+          box-shadow: 0px 10px 20px rgba(134, 190, 71, 0.653327);
+  border-radius: 18px;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  left: 80%;
+  top: -6%;
+}
+
+.content .left-content .content-div .circle-border {
+  margin-top: 20px;
+  width: 170px;
+  height: 170px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  background: linear-gradient(55deg, #F3F9EE 35% 70%, #86BE47 70% 100%);
+}
+
+.content .left-content .content-div .circle-border .circle-core {
+  width: 100%;
+  height: 100%;
+  background-color: #F3F9EE;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .left-content .content-div span {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+  color: #2D3A45;
+}
+
+.content .left-content .content-div p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #8D9BA8;
+}
+
+.content .left-content .div1 {
+  position: absolute;
+  left: -21%;
+  top: -150%;
+  -webkit-box-shadow: 0px 2px 2px rgba(116, 131, 143, 0.135653);
+          box-shadow: 0px 2px 2px rgba(116, 131, 143, 0.135653);
+}
+
+.content .left-content .div2 {
+  position: absolute;
+  left: 30%;
+  top: -59%;
+  -webkit-box-shadow: 0px 38px 48px rgba(116, 131, 143, 0.253879);
+          box-shadow: 0px 38px 48px rgba(116, 131, 143, 0.253879);
+}
+
+.content .left-content .div3 {
+  position: absolute;
+  left: -21%;
+  top: 38%;
+  -webkit-box-shadow: 0px 2px 2px rgba(116, 131, 143, 0.135653);
+          box-shadow: 0px 2px 2px rgba(116, 131, 143, 0.135653);
+}
+
+.content .left-content .div4 {
+  position: absolute;
+  left: 33%;
+  top: 128%;
+  -webkit-box-shadow: 0px 2px 2px rgba(116, 131, 143, 0.135653);
+          box-shadow: 0px 2px 2px rgba(116, 131, 143, 0.135653);
+}
+
+.content .left-content .div5 {
+  position: absolute;
+  left: 86%;
+  top: 175%;
+  -webkit-box-shadow: 0px 2px 2px rgba(116, 131, 143, 0.135653);
+          box-shadow: 0px 2px 2px rgba(116, 131, 143, 0.135653);
 }
 
 .content__title {
@@ -657,6 +783,28 @@
 .content__btn:hover {
   background-color: #FFFFFF;
   color: #228BDA;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
 }
 
 .form {
