@@ -840,6 +840,10 @@
   background-color: #E9F3FB;
 }
 
+.main__list:last-child li div {
+  background-color: #F3F8ED;
+}
+
 .main__item {
   margin: 10px 0px;
 }
