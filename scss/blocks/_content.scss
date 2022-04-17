@@ -4,4 +4,38 @@
     background-image: url("../../images/Rectangle\ Copy\ 37.png"), url("../../images/Group\ 15\ Copy.png");
     background-repeat: no-repeat,no-repeat;
     background-position: 0%  0%, 100% 40%;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title{
+        font-size: 35px;
+        line-height: 40px;
+        color: #2D3A45;
+    }
+    &__text{
+        font-size: 20px;
+        line-height: 28px;
+        color: #2D3A45;
+    }
+    &__btn {
+        width: 180px;
+        height: 50px;
+        background-color: #228BDA;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        border: 1px solid #228BDA;
+        border-radius: 5px;
+        font-weight: 700;
+        transition: 0.3s;
+
+        &:hover {
+            background-color: #FFFFFF;
+            color: #228BDA;
+        }
+    }
 }
