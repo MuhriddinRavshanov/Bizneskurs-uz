@@ -20,6 +20,9 @@ body {
     color: #222;
     scroll-behavior: smooth;
 }
+button:hover {
+    transform: scale(0.95);
+}
 
 // img {
 //     width: 100%;
