@@ -6,15 +6,8 @@
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 0% 60%, 90% 5%, 62% 100%;
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     &__list {
         list-style: none;
-        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -24,7 +17,7 @@
     &__title {
         font-weight: 700;
         font-size: 35px;
-        line-height: 58px;
+        line-height: 40px;
         color: #2D3A45;
         letter-spacing: 0.2px;
     }

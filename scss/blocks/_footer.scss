@@ -9,9 +9,7 @@
     &__list {
         list-style: none;
         padding-left: 0px;
-        &:last-child {
-            width: 23%;
-        }
+
     }
 
     &__link {
@@ -46,7 +44,7 @@
         align-items: center;
 
         span {
-            font-size: 25px;
+            font-size: 20px;
             color: black;
             font-weight: bold;
         }
@@ -63,4 +61,33 @@
         background-color: #F9FAFB;
         margin-bottom: 0px;
     }
+}
+
+#myBtn {
+    height: 60px;
+    width: 60px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.445);
+    color: black;
+    border-radius: 50%;
+    border: 0.1px solid rgba(0, 0, 0, 0.123);
+    transition: 0.3s;
+
+}
+
+#myBtn p {
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -52px;
+    right: 8px;
+}
+
+#myBtn:active {
+    color: #00BAFC;
+    transform: scale(0.9);
 }

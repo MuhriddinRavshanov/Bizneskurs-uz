@@ -30,10 +30,11 @@
       font-size: 22px;
       font-weight: bold;
       color: #2D3A45;
-      left: 80%;
+      left: 60%;
       z-index: 100;
    }
    &__video{
+      z-index: 1;
       transform: perspective(600px) rotateY(-13deg) ;
    }
 }

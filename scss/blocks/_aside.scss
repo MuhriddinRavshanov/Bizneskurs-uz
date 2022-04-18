@@ -2,17 +2,10 @@
     padding: 100px 0px;
     background-image: url("../../images/Group\ 6\ Copy.png");
     background-repeat: no-repeat;
-    background-position: 94% 11%;
-
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    background-position: 92% 11%;
 
     &__list {
         list-style: none;
-        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -59,10 +52,13 @@
         }
     }
 
+    &__img{
+        float: right;
+    }
     &__list2 {
         position: absolute;
         top: 36%;
-        left: -59%;
+        left: 11%;
         width: 240px;
         height: 250px;
         background-color: white;

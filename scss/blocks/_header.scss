@@ -1,10 +1,6 @@
 .header {
 
     .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
         .right-header{
             width: 40%;
             display: flex;
@@ -13,12 +9,12 @@
             img {
                 &:first-child{
                     position: absolute; 
-                    left: 3%;
+                    left: -2%;
                     top: 0%; 
                 }
                 &:last-child {
                     position: absolute;
-                    left: 80%;
+                    left: 77%;
                     top: 25%;
                 }
             }

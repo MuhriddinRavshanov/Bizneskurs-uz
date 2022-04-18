@@ -4,12 +4,6 @@
     background-repeat: no-repeat;
     background-position: 4% 13%;
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     &__list {
         list-style: none;
         width: 50%;
@@ -63,7 +57,7 @@
     &__list2 {
         position: absolute;
         top: 50%;
-        left: 76%;
+        left: 42%;
         width: 240px;
         height: 200px;
         background-color: white;
