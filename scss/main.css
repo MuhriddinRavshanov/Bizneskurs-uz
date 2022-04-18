@@ -55,15 +55,18 @@
   transition: 0.3s;
 }
 
+.nav__btn:hover {
+  background-color: #228BDA;
+  border: 1px solid #228BDA;
+  color: white;
+}
+
 .nav__btn img {
   margin-right: 10px;
 }
 
-.nav__btn:hover {
-  background-color: #228BDA;
-}
-
 .nav__links {
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,6 +81,7 @@
   color: #2D3A45;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border: 2px solid white;
 }
 
 .nav__links img {
@@ -90,6 +94,7 @@
 
 .nav__links:hover {
   color: #228BDA;
+  border-bottom: 2px solid #228BDA;
 }
 
 .header .container .right-header {

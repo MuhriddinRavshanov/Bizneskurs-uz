@@ -36,16 +36,18 @@
         border-radius: 3px;
         cursor: pointer;
         transition: 0.3s;
-
-        img {
-            margin-right: 10px;
-        }
         &:hover {
             background-color: #228BDA;
+            border: 1px solid #228BDA;
+            color: white;
+        }
+        img {
+            margin-right: 10px;
         }
     }
 
     &__links {
+        padding: 5px;
         display: flex;
         align-items: center;
         margin-left: 70px;
@@ -55,6 +57,7 @@
         line-height: 19px;
         color: #2D3A45;
         transition: 0.3s;
+        border: 2px solid white;
 
         img {
             margin-right: 10px;
@@ -64,6 +67,7 @@
         }
         &:hover {
             color: #228BDA;
+            border-bottom: 2px solid #228BDA;
         }
     }
 
